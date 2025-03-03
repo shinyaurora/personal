@@ -28,11 +28,11 @@ const DATA = {
                 url: "https://github.com/luckdev01",
                 icon: Icons.gitHub,
             },
-            LinkedIn: {
-                name: "LinkedIn",
-                url: "https://www.linkedin.com/in/denniskong823/",
-                icon: Icons.linkedin,
-            },
+            // LinkedIn: {
+            //     name: "LinkedIn",
+            //     url: "https://www.linkedin.com/in/denniskong823/",
+            //     icon: Icons.linkedin,
+            // },
         },
         contact: {
             email: {
@@ -88,7 +88,7 @@ export function SideNav() {
                                         "size-12 rounded-full",
                                     )}
                                 >
-                                    <social.icon className="size-4" />
+                                    <social.icon />
                                 </Link>
                             </TooltipTrigger>
                             <TooltipContent>
